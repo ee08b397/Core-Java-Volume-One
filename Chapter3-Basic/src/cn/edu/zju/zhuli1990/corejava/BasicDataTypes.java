@@ -33,5 +33,9 @@ public class BasicDataTypes {
 		float f = 1.0f;
 		double d = 2.0;
 	}
-
+	
+	// Enumeration is also available in Java, as was in C++.
+	enum Size {
+		SMALL, MEDIUM, LARGE, EXTRA_LARGE
+	}
 }

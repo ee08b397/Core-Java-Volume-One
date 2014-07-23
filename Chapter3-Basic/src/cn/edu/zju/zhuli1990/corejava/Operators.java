@@ -75,10 +75,13 @@ public class Operators {
 		short s = (short)100000; // forced from int to short
 		
 		// There is no syntax like this in Java.
-		// But they work in C++.
 		// short s = short(100000);
+		// But they work in C++.
 		
 		// There is no 'sizeof' operator in Java.
-		// You're not expected to care about those byte-related matters. 
+		// You're not expected to care about those byte-related matters.
+		
+		// Last but not least, the conditional operator
+		i = (i == 1 ? 2 : 3);
 	}
 }
